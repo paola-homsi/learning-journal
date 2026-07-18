@@ -1,0 +1,14 @@
+name: journal-lint
+on: [push]
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check for unfilled template placeholders in committed notes
+        run: |
+          # Warn (don't fail) if committed notes still contain template boilerplate
+          if grep -rn "YYYY-MM-DD\|\[Paper Title\]\|\[Project Name\]" papers/ experiments/ projects/ weekly/ notes/ 2>/dev/null; then
+            echo "::warning::Some notes still contain template placeholders (see above)"
+          fi
+          echo "OK"

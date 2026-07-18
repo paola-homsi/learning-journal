@@ -1,0 +1,21 @@
+# OS / editor
+.DS_Store
+*.swp
+.idea/
+.vscode/
+
+# Python / notebooks (if you keep scratch code here)
+__pycache__/
+.ipynb_checkpoints/
+*.egg-info/
+.venv/
+
+# Secrets — never commit keys, even in a private repo
+.env
+*.key
+
+# Large artifacts belong in the project's own repo / W&B, not the journal
+*.ckpt
+*.safetensors
+*.gguf
+wandb/
