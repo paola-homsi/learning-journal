@@ -7,12 +7,12 @@ Update weekly during the Sunday review. Quarterly: re-run the Phase 0 gap analys
 > Check these off as you go. Grouped by phase. (300+ discrete tasks.)
 
 ### Phase 0 — Gap Analysis & Setup (8)
-- [ ] 1. Complete honest self-assessment against the gap table
+- [x] 1. Complete honest self-assessment against the gap table
 - [ ] 2. Set up GPU access (Colab Pro+ or Lambda/RunPod/Vast)
 - [ ] 3. Install `uv` and configure Python environment
 - [ ] 4. Create Hugging Face, W&B, and GitHub learning accounts
 - [ ] 5. Create the `learning-journal` repo structure
-- [ ] 6. Define your target role tier (lab vs product/infra vs applied)
+- [x] 6. Define your target role tier (lab vs product/infra vs applied)
 - [ ] 7. Set your weekly hour budget and calendar blocks
 - [ ] 8. Bookmark the core resource set
 
